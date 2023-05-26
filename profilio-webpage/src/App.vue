@@ -1,21 +1,16 @@
 <template>
-  <body>
-    <LandingPage />
+  <div>
     <nav>
-      <router-link to="{ name: 'landingPage' }">Home</router-link>||
-      <router-link to="{ name: 'aboutPage' }">About</router-link>||
+      <router-link :to="{ name: 'landingPage' }">Home</router-link>||
+      <router-link :to="{ name: 'aboutPage' }">About</router-link>||
     </nav>
-  </body>
+    <router-view />
+  </div>
 </template>
 
 <script>
-import LandingPage from "./views/LandingPage.vue";
-
 export default {
   name: "App",
-  components: {
-    LandingPage,
-  },
 };
 </script>
 

@@ -3,18 +3,16 @@ import { createRouter, createWebHistory } from "vue-router";
 import LandingPage from "../views/LandingPage.vue";
 import AboutPage from "../views/AboutPage.vue";
 
-// Vue.use(VueRouter);
-
 const routes = [
-  {
-    path: "/",
-    name: "landingPage",
-    component: LandingPage,
-  },
   {
     path: "/AboutTia",
     name: "aboutPage",
     component: AboutPage,
+  },
+  {
+    path: "/welcome",
+    name: "landingPage",
+    component: LandingPage,
   },
 ];
 const router = createRouter({

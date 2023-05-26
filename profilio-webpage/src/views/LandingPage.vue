@@ -1,16 +1,12 @@
 <template>
-  <body>
+  <div>
     <h1>Tia Bulliner</h1>
-    <h3>Full Stack Software Engineer </h3>
-  </body>
+    <h3>Full Stack Software Engineer</h3>
+  </div>
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
-<style>
-
-</style>
+<style></style>
