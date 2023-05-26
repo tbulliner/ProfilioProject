@@ -4,7 +4,7 @@
       <router-link :to="{ name: 'landingPage' }">Home</router-link>||
       <router-link :to="{ name: 'aboutPage' }">About</router-link>||
     </nav>
-    <router-view />
+    <router-view></router-view>
   </div>
 </template>
 
